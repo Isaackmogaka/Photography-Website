@@ -16,18 +16,20 @@ useEffect(() => {
     return (
         <>
             <h1>List of merchandise up for sale</h1>
-            <div>
-                <div>
+            <div id="container">
+                <ul id="card">
                   {animals.map((animal) => (
-                    <div key={animal.name}>
-                        <img src={animal.image} alt={animal.name} width="200px"></img>
-                        <p>Name: {animal.name}</p>
+                    <li key={animal.name}>
+                        <img src={animal.image} alt={animal.name}></img>
+                        <p>Name: <span>{animal.name}</span></p>
                         <p>Description: {animal.description}</p>
-                        <p>Price: {animal.price}</p>
-                        <button>Order now</button>
-                    </div>
+                        <div id="button">
+                            <p id= "price">Price: <span>{animal.price}</span></p>
+                            <button>Order now</button>
+                        </div>
+                    </li>
                   ))}
-                </div>
+                </ul>
             </div>
         </>
     )
