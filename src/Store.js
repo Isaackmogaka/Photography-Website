@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Cart from "./Cart";
 
 function Store() {
 const [animals, setAnimal] = useState([]);
@@ -13,13 +14,12 @@ useEffect(() => {
       });
   }, []);
 
-function addToCart(animals){
-setCart([...cart, animals])
+function addToCart(animal){
+setCart([...cart, animal])
 }
     return (
         <>
-            <h1>List of merchandise up for sale</h1>
-            <button>Go to cart {cart.length}</button>
+            <button>Items in Cart ({cart.length})</button>
             <div id="container">
                 <ul id="card">
                   {animals.map((animal) => (
@@ -29,12 +29,13 @@ setCart([...cart, animals])
                         <p>Description: {animal.description}</p>
                         <div id="button">
                             <p id= "price">Price: <span>{animal.price}</span></p>
-                            <button onClick={() => addToCart(animals)}>Add to cart</button>
+                            <button onClick={() => addToCart(animal)}>Add to cart</button>
                         </div>
                     </li>
                   ))}
                 </ul>
             </div>
+            <Cart cart = {cart}/>
         </>
     )
 }

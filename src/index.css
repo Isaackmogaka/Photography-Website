@@ -23,11 +23,9 @@ code {
 #card li {
   margin: 15px;
   padding: 10px;
-  border: 1px solid #00a2a2;
   border-radius: 30px;
   width: 400px;
   text-align: center;
-  background-color: rgb(227, 227, 227);
   height: auto;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5)
 }

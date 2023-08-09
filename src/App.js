@@ -1,10 +1,11 @@
 import './App.css';
-import Store from "./Store"
+import Toogle from "./Toogle"
 
 function App() {
   return (
     <div className="App">
-      <Store/>
+      <h1>Merchandise on sale</h1>
+      <Toogle/>
     </div>
   );
 }

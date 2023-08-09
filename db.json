@@ -31,31 +31,31 @@
         "price": 12000
       },
       {
-        "name": "Lion",
+        "name": "Lion1",
         "image": "https://images.unsplash.com/photo-1607490703747-0519d2e398a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bGlvbiUyMGtpbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
         "description": "The lion is a large carnivorous mammal known as the 'king of the jungle.' It is known for its majestic appearance and powerful roar.",
         "price": 10000
       },
       {
-        "name": "Leopard",
+        "name": "Leopard1",
         "image": "https://images.unsplash.com/photo-1573663209453-93f1875e5a7b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGxlb3BhcmR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
         "description": "The leopard is a stealthy and agile big cat with distinctive rosette patterns on its coat. It is known for its ability to climb trees.",
         "price": 8000
       },
       {
-        "name": "Rhino",
+        "name": "Rhino1",
         "image": "https://images.unsplash.com/photo-1612703252506-e2f1f674752d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHJoaW5vfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
         "description": "The rhinoceros, often called a rhino, is a large herbivorous mammal characterized by its thick protective skin and one or two horns on its nose.",
         "price": 15000
       },
       {
-        "name": "Elephant",
+        "name": "Elephant1",
         "image": "https://images.unsplash.com/photo-1603483080228-04f2313d9f10?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZWxlcGhhbnR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
         "description": "The elephant is the largest land animal and is known for its impressive size, trunk, and large ears. It is a social and intelligent creature.",
         "price": 20000
       },
       {
-        "name": "African Buffalo",
+        "name": "African Buffalo1",
         "image": "https://images.unsplash.com/photo-1603966474815-85d21585ffb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8QWZyaWNhbiUyMEJ1ZmZhbG98ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
         "description": "The African buffalo, also known as the Cape buffalo, is a large and robust bovine with distinctive horns. It is found in various habitats across Africa.",
         "price": 12000
