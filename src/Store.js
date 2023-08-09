@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 
 function Store() {
 const [animals, setAnimal] = useState([]);
+const [cart, setCart] = useState([])
 
 useEffect(() => {
     fetch("http://localhost:8001/animals")
@@ -12,10 +13,13 @@ useEffect(() => {
       });
   }, []);
 
-
+function addToCart(animals){
+setCart([...cart, animals])
+}
     return (
         <>
             <h1>List of merchandise up for sale</h1>
+            <button>Go to cart {cart.length}</button>
             <div id="container">
                 <ul id="card">
                   {animals.map((animal) => (
@@ -25,7 +29,7 @@ useEffect(() => {
                         <p>Description: {animal.description}</p>
                         <div id="button">
                             <p id= "price">Price: <span>{animal.price}</span></p>
-                            <button>Order now</button>
+                            <button onClick={() => addToCart(animals)}>Add to cart</button>
                         </div>
                     </li>
                   ))}
