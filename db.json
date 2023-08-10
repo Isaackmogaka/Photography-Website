@@ -1,4 +1,24 @@
 {
+    "reviews":[
+      {
+        "image":"https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=580&q=80",
+        "name": "Gerald Ochieng",
+        "comment": "Working with Griffin was a delight! Amazing photos that captured our essence perfectly.",
+        "username": "Gochy"
+      },
+      {
+        "image":"https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=580&q=80",
+        "name": "Enock Kamuta",
+        "comment": "Griffin's photography is pure magic! Capturing heartfelt moments beautifully. Highly recommend!",
+        "username": "Netam Fresh"
+      },
+      {
+        "image":"https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=580&q=80",
+        "name": "Samuel Odhiambo",
+        "comment": "Working with Griffin was a delight! Amazing photos that captured our essence perfectly.",
+        "username": "Aizy"
+      }
+    ],
     "animals": [
       {
         "name": "Lion",

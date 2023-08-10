@@ -30,7 +30,7 @@ code {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5)
 }
 
-img{
+#card img{
   border-radius: 30px;
   width: 380px;
   height: 200px;
@@ -63,3 +63,4 @@ span{
   font-weight: bold;
   font-size: 20px;
 }
+
