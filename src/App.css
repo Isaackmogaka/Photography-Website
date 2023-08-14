@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,129 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* AnimalCard.css */
+
+.animal-card {
+  text-align: center;
+  padding: 20px;
+}
+
+.animal-card-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.animal-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.animal-item {
+  width: calc(33.33% - 10px); /* Each card takes up one-third of the container width minus gap */
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.animal-image {
+  max-width: 20%;
+  height: auto;
+}
+
+.animal-name {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.animal-description {
+  margin-top: 10px;
+}
+
+.animal-price {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.book-now-button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.book-now-button:hover {
+  background-color: #0056b3;
+}
+
+
+/* BookingForm.css */
+
+.booking-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.booking-form {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.booking-form h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.success-message {
+  color: #00a600;
+  font-size: 18px;
+  margin-top: 10px;
+  text-align: center;
 }
