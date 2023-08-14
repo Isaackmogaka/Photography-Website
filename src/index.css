@@ -5,9 +5,169 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+ #container ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#card li {
+  margin: 15px;
+  padding: 10px;
+  border-radius: 30px;
+  width: 400px;
+  text-align: center;
+  height: auto;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5)
+}
+
+#card img{
+  border-radius: 30px;
+  width: 380px;
+  height: 200px;
+  width: auto;
+}
+#button{
+  display: flex;
+  justify-content: space-between;
+}
+button{
+  border-radius: 30px;
+  background-color: #FF8A3D;
+  color: white;
+  font-size: 20px;
+  padding: 0 10px;
+  height: 40px;
+}
+button:hover{
+  cursor: pointer;
+}
+button:active{
+  transform: scale(0.9);
+  cursor: pointer;
+}
+#card p{
+  text-align: left;
+} 
+span{
+  color: #FF8A3D;
+  font-weight: bold;
+  font-size: 20px;
+}
+/***************************styling the home page**************** */
+#section1{
+  background-image: url("/public/_MG_0217\ copy.jpg");
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+#page1{
+  display: flex;
+}
+
+#content h2{
+  color: #000;
+  /* font-family: Oswald; */
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-weight: bolder;
+}
+#content h3{
+  color: #000;
+  font-size: 30px;
+  font-style: lighter;
+  font-weight: 400;
+  line-height: 50px; 
+  width: 500px;
+}
+#content{
+  text-align: left;
+  position: relative;
+  justify-content: flex-start; 
+  margin-left: 30px;
+  margin-top: 70px;
+}
+
+#section2{
+  height: 100vh;
+}
+#numbers, #reviews{
+  display: flex;
+  justify-content: space-evenly;
+}
+#stats{
+  width: 300px;
+  height: auto;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  margin-top: 20px;
+}
+#stats h1{
+  font-size: 25px;
+  color: #FF8A3D;
+  font-weight: bolder;
+  margin: 10px 0 0 0;
+}
+#stats p{
+  padding: 10px;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  margin: 0;
+  font-weight: lighter;
+}
+#reviewer{
+  width: 100px;
+  height: auto;
+  border-radius: 100%;
+  margin: 10px 0 0 0;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+
+}
+#review p{
+  font-size: 15px;
+  font-weight: lighter;
+  width: 300px;
+}
+#review h2{
+  font-size: 15px;
+  margin: 0;
+}
+#section3{
+  height: 25vh;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+  background-color: #FF8A3D;
+  color: white;
+}
+#about{
+  text-align: center;
+  width: 500px;
+}
+#contact ul{
+  list-style: none;
+  text-align: left;
+}
+footer{
+  margin: 25px;
+  font-style: italic;
+  text-align: center;
+}
+footer p {
+  position: relative;
+  top: 2.5rem;
 }
