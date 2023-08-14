@@ -5,7 +5,7 @@ function Home(){
     const[reviews, setReview] = useState([])
 
     useEffect(() => {
-        fetch("http://localhost:8001/reviews")
+        fetch("https://ontrack-server.onrender.com/reviews")
           .then(response => response.json())
           .then(data => setReview(data))
           .catch(error => {

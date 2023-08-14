@@ -5,9 +5,9 @@ import Home from './Components/Home'
 function App() {
   return (
     <div className="App">
-      {/* <h1>Merchandise on sale</h1> */}
       <Home/>
-      {/* <Toogle/> */}
+      <h1>Merchandise on sale</h1>
+      <Toogle/>
     </div>
   );
 }

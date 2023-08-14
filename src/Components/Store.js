@@ -7,7 +7,7 @@ const [cart, setCart] = useState([])
 // const [selectedCart, setSelectedCart] = useState([])
 
 useEffect(() => {
-    fetch("http://localhost:8001/animals")
+    fetch("https://ontrack-server.onrender.com/animals")
       .then(response => response.json())
       .then(data => setAnimals(data))
       .catch(error => {
