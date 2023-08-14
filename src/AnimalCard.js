@@ -109,7 +109,7 @@ const AnimalCard = () => {
 
   useEffect(() => {
     // Fetch data from local API
-    fetch('http://localhost:7000/animals')
+    fetch('https://ontrack-server.onrender.com/animals')
       .then(response => response.json())
       .then(data => {
         setAnimals(data);

@@ -1,10 +1,10 @@
 
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import Home from './Home';
+import Home from '../Components/Home';
 import Portfolio from './Portfolio';
-import Booking from './Booking';
-import Store from './Store';
 import Footer from './Footer';
+import Toogle from '../Components/Toogle';
+import AnimalCard from '../AnimalCard';
 
 function NavBar() {
   return (
@@ -15,15 +15,15 @@ function NavBar() {
         <ul className="nav-list">
           <li><Link to="/" className="nav-link">Home</Link></li>
           <li><Link to="/portfolio" className="nav-link">Portfolio</Link></li>
-          <li><Link to="/booking" className="nav-link">Booking</Link></li>
-          <li><Link to="/store" className="nav-link">Store</Link></li>
+          <li><Link to="/animalCard" className="nav-link">Booking</Link></li>
+          <li><Link to="/toogle" className="nav-link">Stores</Link></li>
         </ul>
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/booking" element={<Booking />} />
-        <Route path="/store" element={<Store />} />
+        <Route path="/animalCard" element={<AnimalCard />} />
+        <Route path="/Toogle" element={<Toogle />} />
       </Routes>
       
     </BrowserRouter>

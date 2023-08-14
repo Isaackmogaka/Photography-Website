@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import Store from "./Store"
+import Store from "../Components/Store";
 import Cart from "./Cart"
 
 function Toogle(){
